@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login To Application(failed)">
+    <classes>
+      <class name="loginTestCases.Login">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="loginWithCorrect"/>
+        </methods>
+      </class> <!-- loginTestCases.Login -->
+    </classes>
+  </test> <!-- Login To Application(failed) -->
+</suite> <!-- Failed suite [Login suite] -->
